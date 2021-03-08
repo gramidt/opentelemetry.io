@@ -54,11 +54,9 @@
   dependencies:
     "@opentelemetry/context-base" "^0.17.0"
 
-"@opentelemetry/api@^0.8.3":
-  version "0.8.3"
-  resolved "https://registry.npmjs.org/@opentelemetry/api/-/api-0.8.3.tgz"
-  dependencies:
-    "@opentelemetry/context-base" "^0.8.3"
+"@opentelemetry/api@^0.18.0":
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-0.18.1.tgz#fb499e07afa1f55acffc47b2469eb218dcdee2a2"
 
 "@opentelemetry/context-base@^0.15.0":
   version "0.15.0"
@@ -71,10 +69,6 @@
 "@opentelemetry/context-base@^0.17.0":
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.17.0.tgz#03b72c54b5be5f40d6d88806de01d88e8ab196c4"
-
-"@opentelemetry/context-base@^0.8.3":
-  version "0.8.3"
-  resolved "https://registry.npmjs.org/@opentelemetry/context-base/-/context-base-0.8.3.tgz"
 
 "@opentelemetry/core@^0.15.0":
   version "0.15.0"
@@ -100,12 +94,11 @@
     "@opentelemetry/context-base" "^0.17.0"
     semver "^7.1.3"
 
-"@opentelemetry/core@^0.8.3":
-  version "0.8.3"
-  resolved "https://registry.npmjs.org/@opentelemetry/core/-/core-0.8.3.tgz"
+"@opentelemetry/core@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/core/-/core-0.18.0.tgz#51f1cea441c163e53eee2a454134ee0bc6451177"
   dependencies:
-    "@opentelemetry/api" "^0.8.3"
-    "@opentelemetry/context-base" "^0.8.3"
+    "@opentelemetry/api" "^0.18.0"
     semver "^7.1.3"
 
 "@opentelemetry/exporter-collector@^0.16.0":
@@ -2533,11 +2526,7 @@ semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
 
-semver@^7.1.3:
-  version "7.3.2"
-  resolved "https://registry.npmjs.org/semver/-/semver-7.3.2.tgz"
-
-semver@^7.3.2:
+semver@^7.1.3, semver@^7.3.2:
   version "7.3.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
   dependencies:
