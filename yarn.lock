@@ -36,6 +36,12 @@
   dependencies:
     "@opentelemetry/api" "^0.16.0"
 
+"@opentelemetry/api-metrics@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/api-metrics/-/api-metrics-0.18.0.tgz#347b3efc5b34d5ee2565df99300b97c064043daa"
+  dependencies:
+    "@opentelemetry/api" "^0.18.0"
+
 "@opentelemetry/api@^0.15.0":
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-0.15.0.tgz#0324a96e70e7a8122dc6ec814ce796535c8d9123"
@@ -53,6 +59,10 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-0.17.0.tgz#c90e24acad7c67a26d2b8c86bed5b56785787a98"
   dependencies:
     "@opentelemetry/context-base" "^0.17.0"
+
+"@opentelemetry/api@^0.18.0":
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-0.18.1.tgz#fb499e07afa1f55acffc47b2469eb218dcdee2a2"
 
 "@opentelemetry/api@^0.8.3":
   version "0.8.3"
@@ -129,12 +139,12 @@
     semver "^7.3.2"
     shimmer "^1.2.1"
 
-"@opentelemetry/instrumentation@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.16.0.tgz#758c04cbb2cd86951d8b2e43f77e1d3f463751f3"
+"@opentelemetry/instrumentation@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.18.0.tgz#b960e83558225ebcbf039c7077e8b46b66a9f31b"
   dependencies:
-    "@opentelemetry/api" "^0.16.0"
-    "@opentelemetry/api-metrics" "^0.16.0"
+    "@opentelemetry/api" "^0.18.0"
+    "@opentelemetry/api-metrics" "^0.18.0"
     require-in-the-middle "^5.0.3"
     semver "^7.3.2"
     shimmer "^1.2.1"
@@ -2533,11 +2543,7 @@ semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz"
 
-semver@^7.1.3:
-  version "7.3.2"
-  resolved "https://registry.npmjs.org/semver/-/semver-7.3.2.tgz"
-
-semver@^7.3.2:
+semver@^7.1.3, semver@^7.3.2:
   version "7.3.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
   dependencies:
